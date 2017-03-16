@@ -26,14 +26,13 @@ applications, it is state that our human brains struggle most to parse and track
 So, if state is something we should avoid, what are some strategies to achieve
 that goal? This is where `props` come in!
 
-Props provide us with a way to minimize
-the number of components in our app that need to carry and manage state. Another,
-more evocative, way to say this is that `props` provide us with a method for
-reducing the total "surface area" of our app that is stateful. The reason `props`
-help us to minimize `state` is because we can use them to send data _down_
-into our nested child components. Because we can send data _down_,
-we can _push state up_, thereby concentrating state at the "top" of our UI's 
-hierarchy. 
+Props provide us with a way to minimize the number of components in our app
+that need to carry and manage state. Another, more evocative, way to say this is
+that `props` provide us with a method for reducing the total "surface area" of our
+app that is stateful. The reason `props` help us to minimize `state` is because we
+can use them to send data _down_ into our nested child components. Because we
+can send data _down_, we can _push state up_, thereby concentrating state at the
+"top" of our UI's hierarchy. 
 
 This may all seem a bit abstract at this point, so let's take a look at an example
 to illustrate our point.
@@ -175,3 +174,5 @@ Mad props to props!
 
 - [Thinking in React](https://facebook.github.io/react/docs/thinking-in-react.html)
 - [Props vs. State](https://github.com/uberVU/react-guide/blob/master/props-vs-state.md)
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/props-props-props-props-props-props'>Props Props Props</a> on Learn.co and start learning to code for free.</p>
