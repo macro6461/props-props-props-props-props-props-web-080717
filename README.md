@@ -100,7 +100,7 @@ class App extends Component {
   toggleListMode = () => this.setState({ showEaten: !this.state.showEaten });
 
   updateFruitList = () => {
-    fetch(`/api/fruit?eaten=true${this.state.showEaten}`)
+    fetch(`/api/fruit?eaten=${this.state.showEaten}`)
       .then(response => response.json())
       .then(fruits => this.setState({ fruits }));
   }
